@@ -1,3 +1,4 @@
+
 body {
     font-family: sans-serif;
     background-color: black;
@@ -30,7 +31,6 @@ nav {
 }
 
 h1 {
-    text-align: center;
     color: light green;
     font-size: 36px;
     margin-top: 45px;
@@ -38,7 +38,6 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     color: white;
     font-size: 36px;
     margin-top: 45px;
@@ -53,9 +52,15 @@ ul,li{
     color: white
 }
 h3 {
-    text-align: center;
     color: white;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
 }
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+h1 { color: lightgreen; font-size: 36px; }
+h2, h3 { color: white; font-size: 36px; }
