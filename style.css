@@ -41,5 +41,17 @@ h1, h2, h3 {
     margin-top: 45px;
     margin-bottom: 40px;
 }
-h1 { color: lightgreen; font-size: 36px; }
-h2, h3 { color: lightgreen; font-size: 36px; }
+h1 {
+    color: lightgreen;
+    font-size: 40px; /* чуть больше, чем остальные */
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+h3 {
+    color: white;
+    font-size: 28px;
+}
