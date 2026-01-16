@@ -21,7 +21,6 @@ header {
     border-radius: 10px;
     display: block;
 }
-
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -29,21 +28,6 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
-h1 {
-    color: light green;
-    font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 40px;
-}
-
-h2 {
-    color: white;
-    font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 40px;
-}
-
 .post-img {
     width: 200px;
     height: 150px;
@@ -51,12 +35,7 @@ h2 {
 ul,li{
     color: white
 }
-h3 {
-    color: white;
-    font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 40px;
-}
+
 h1, h2, h3 {
     text-align: center;
     margin-top: 45px;
