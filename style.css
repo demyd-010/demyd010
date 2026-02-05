@@ -1,7 +1,7 @@
-
 body {
     font-family: sans-serif;
     background-color: black;
+    color: white;
 }
 
 header {
@@ -21,6 +21,7 @@ header {
     border-radius: 10px;
     display: block;
 }
+
 nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
@@ -28,25 +29,37 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .post-img {
     width: 200px;
     height: 150px;
 }
 
-}
 h1, h2, h3 {
     text-align: center;
     margin-top: 45px;
     margin-bottom: 40px;
 }
-h1 { color: lightgreen; font-size: 36px; }
-h2, h3 { color: white; font-size: 36px; }
-a{
+
+h1 {
+    color: lightgreen;
+    font-size: 36px;
+}
+
+h2, h3 {
+    color: white;
+    font-size: 36px;
+}
+
+a {
     color: white;
 }
+
 .post {
-  text-align: center;
+    text-align: center;
 }
-p{
+
+p {
     color: white;
+    font-size: 18px;
 }
